@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className='footer'>Markdown Viewer made with React
-<textarea placeholder='write here #ok or **reactisawesome**' className='textarea' onChange={chanto}># hello from react </textarea>
+<textarea placeholder='write here # okbro or **reactisawesome**' className='textarea' onChange={chanto}># hello from react </textarea>
 <div >
   <h2>Converted Markdown appear here</h2>
 <ReactMarkdown>{state}</ReactMarkdown>
