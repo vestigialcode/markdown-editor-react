@@ -2,7 +2,7 @@
   text-align: center;
 }
 .textarea{
-  width: 100%;
+  width: 95%;
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
@@ -14,5 +14,7 @@
 }
 .footer{
   text-align: center;
+  font-size: large;
+ text-decoration: solid;
   
 }

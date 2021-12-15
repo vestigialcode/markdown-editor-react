@@ -15,9 +15,9 @@ function App() {
 
   return (
     <div className='footer'>Markdown Viewer made with React
-<textarea placeholder='write here # okbro or **reactisawesome**' className='textarea' onChange={chanto}># hello from react </textarea>
+<textarea placeholder='write here # okbro or **reactisawesome**' className='textarea' onChange={chanto}># Try editing this line </textarea>
 <div >
-  <h2>Converted Markdown appear here</h2>
+  <h2>Converted Markdown appear here <br/>👇</h2>
 <ReactMarkdown>{state}</ReactMarkdown>
 </div>
 <footer className='footer'>Made with ❤️ by<a href='https://github.com/vestigialcode'> Vestigialcode</a></footer>
