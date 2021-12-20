@@ -5,4 +5,12 @@
   2. Component Lifecycle
   3. React synthetic Event(e)
   
+ ## How to run locally
+ ```
+ git clone <this repo url>
+ ```
+ ```
+ yarn && yarn start
+ ```
+  
 
