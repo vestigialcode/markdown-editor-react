@@ -7,7 +7,7 @@
   
  ## How to run locally
  ```
- git clone <this repo url>
+ git clone https://github.com/vestigialcode/markdown-editor-react.git
  ```
  ```
  yarn && yarn start
