@@ -12,6 +12,8 @@ function App() {
     setChangeit(e.target.value)
     
   }
+  var someYear=new Date()
+  var currentYear= someYear.getFullYear()
 
   return (
     <div className='footer'>Markdown Viewer made with React
@@ -20,7 +22,7 @@ function App() {
   <h2>Converted Markdown appear here <br/>👇</h2>
 <ReactMarkdown>{state}</ReactMarkdown>
 </div>
-<footer className='footer'>Made with ❤️ by<a href='https://github.com/vestigialcode'> Vestigialcode</a></footer>
+<footer className='footer'>Made with ❤️ by<a href='https://github.com/vestigialcode'> Vestigialcode &copy; {currentYear}</a></footer>
     </div>
   );
 }
