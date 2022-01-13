@@ -22,7 +22,7 @@ function App() {
   <h2>Converted Markdown appear here <br/>👇</h2>
 <ReactMarkdown>{state}</ReactMarkdown>
 </div>
-<footer className='footer'>Made with ❤️ by<a href='https://github.com/vestigialcode'> Vestigialcode &copy; {currentYear}</a></footer>
+<footer className='footer'>Made with ❤️ by<a href='https://github.com/vestigialcode'> Vestigialcode </a>&copy; {currentYear}</footer>
     </div>
   );
 }
